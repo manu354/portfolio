@@ -162,7 +162,7 @@ a {
 
     color: rgba(255, 255, 255, 1.00);
     font-size: 5rem;
-    line-height: 75px;
+    line-height: 95px;
     font-style: normal;
     text-decoration: none;
     background-color: transparent;
@@ -173,6 +173,7 @@ a {
     letter-spacing: -.01em;
     font-family: Adelle;
     font-weight: 800;
+    /*margin: 0;*/
 }
 
 .smallflat {
