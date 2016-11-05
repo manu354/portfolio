@@ -1,0 +1,192 @@
+@font-face {
+    font-family: Adelle;
+    font-weight: 300;
+    font-style: normal;
+    src: url(revolution/fonts/adelle/adelle-light-webfont.eot);
+    src: url(revolution/fonts/adelle/adelle-light-webfontd41d.eot?#iefix) format("embedded-opentype"), url(revolution/fonts/adelle/adelle-light-webfont.woff2) format("woff2"), url(revolution/fonts/adelle/adelle-light-webfont.woff) format("woff"), url(revolution/fonts/adelle/adelle-light-webfont.ttf) format("truetype")
+}
+
+@font-face {
+    font-family: Adelle;
+    font-weight: 400;
+    font-style: normal;
+    src: url(revolution/fonts/adelle/adelle-reg-webfont.eot);
+    src: url(revolution/fonts/adelle/adelle-reg-webfontd41d.eot?#iefix) format("embedded-opentype"), url(revolution/fonts/adelle/adelle-reg-webfont.woff2) format("woff2"), url(revolution/fonts/adelle/adelle-reg-webfont.woff) format("woff"), url(revolution/fonts/adelle/adelle-reg-webfont.ttf) format("truetype")
+}
+
+@font-face {
+    font-family: Adelle;
+    font-weight: 700;
+    font-style: normal;
+    src: url(revolution/fonts/adelle/adelle-bold-webfont.eot);
+    src: url(revolution/fonts/adelle/adelle-bold-webfontd41d.eot?#iefix) format("embedded-opentype"), url(revolution/fonts/adelle/adelle-bold-webfont.woff2) format("woff2"), url(revolution/fonts/adelle/adelle-bold-webfont.woff) format("woff"), url(revolution/fonts/adelle/adelle-bold-webfont.ttf) format("truetype")
+}
+
+@font-face {
+    font-family: Adelle;
+    font-weight: 800;
+    font-style: normal;
+    src: url(revolution/fonts/adelle/adelle-extrabold-webfont.eot);
+    src: url(revolution/fonts/adelle/adelle-extrabold-webfontd41d.eot?#iefix) format("embedded-opentype"), url(revolution/fonts/adelle/adelle-extrabold-webfont.woff2) format("woff2"), url(revolution/fonts/adelle/adelle-extrabold-webfont.woff) format("woff"), url(revolution/fonts/adelle/adelle-extrabold-webfont.ttf) format("truetype")
+}
+
+.soundcloudwrapper iframe {
+    width: 100% !important
+}
+
+a {
+    text-decoration: none;
+}
+
+.tp-caption.R_social,
+.R_social {
+    color: rgba(0, 0, 0, 0.35);
+    font-size: 25px;
+    line-height: 30px;
+    font-weight: 700;
+    font-style: normal;
+    font-family: adelle;
+    text-decoration: none;
+    background-color: transparent;
+    border-color: transparent;
+    border-style: none;
+    border-width: 0px;
+    border-radius: 0 0 0 0px
+}
+
+.tp-caption.R_social:hover,
+.R_social:hover {
+    color: rgba(0, 0, 0, 0.50);
+    text-decoration: none;
+    background-color: transparent;
+    border-color: transparent;
+    border-style: none;
+    border-width: 0px;
+    border-radius: 0 0 0 0px;
+    cursor: pointer
+}
+
+#tp-menubg {
+    opacity: 0
+}
+
+#welcome_wrapper .tp-loader.spinner3 div {
+    background-color: #ffffff !important;
+}
+
+.tp-caption.themeplicity_project_btn, .themeplicity_project_btn {
+    color: rgba(255, 255, 255, 1.00);
+    font-size: 40px;
+    line-height: 100px;
+    font-weight: 500;
+    font-style: normal;
+    font-family: Roboto;
+    text-decoration: none;
+    background-color: rgba(0, 0, 0, 0.35);
+    border-color: rgba(0, 0, 0, 0);
+    border-style: none;
+    border-radius: 50px 50px 50px 50px
+}
+
+#projects_wrapper .tp-loader.spinner3 div {
+    background-color: #FFFFFF !important;
+}
+
+.tp-boxshadow .rev_column_bg {
+    -webkit-box-shadow: 0px 15px 30px 0px rgba(0, 0, 0, 0.35);
+    -moz-box-shadow: 0px 15px 30px 0px rgba(0, 0, 0, 0.35);
+    box-shadow: 0px 15px 30px 0px rgba(0, 0, 0, 0.35);
+}
+
+.tp-link a,
+.tp-link a:visited {
+    color: rgba(0, 0, 0, 0.5) !important;
+}
+
+.tp-link a:hover {
+    color: rgba(0, 0, 0, 0.75) !important;
+}
+
+#mc_embed_signup input[type="email"] {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    background-color: #fff;
+    color: #888 !important;
+    line-height: 60px !important;
+    padding: 0px 20px !important;
+    cursor: text;
+    border: 0;
+    width: 400px;
+    margin-bottom: 0px;
+    -webkit-transition: background-color 0.5s;
+    -moz-transition: background-color 0.5s;
+    -o-transition: background-color 0.5s;
+    -ms-transition: background-color 0.5s;
+    transition: background-color 0.5s;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+
+#menu_forcefullwidth {
+    z-index: 5000;
+    position: fixed !important;
+    top: 0px;
+    left: 0px;
+    width: 100%
+}
+
+.tp-lowopacity {
+    opacity: 0.75 !important;
+}
+
+.tp-caption.R_title,
+.R_title {
+    color: rgba(255, 255, 255, 1.00);
+    font-size: 5rem;
+    line-height: 75px;
+    font-style: normal;
+    text-decoration: none;
+    background-color: transparent;
+    border-color: transparent;
+    border-style: none;
+    border-width: 0px;
+    border-radius: 0 0 0 0px;
+    letter-spacing: -.01em;
+    font-family: Adelle;
+    font-weight: 800;
+}
+
+.bigflat {
+
+    color: rgba(255, 255, 255, 1.00);
+    font-size: 5rem;
+    line-height: 75px;
+    font-style: normal;
+    text-decoration: none;
+    background-color: transparent;
+    border-color: transparent;
+    border-style: none;
+    border-width: 0px;
+    border-radius: 0 0 0 0px;
+    letter-spacing: -.01em;
+    font-family: Adelle;
+    font-weight: 800;
+}
+
+.smallflat {
+    color: rgba(255, 255, 255, 1.00);
+    font-size: 1.5rem;
+    line-height: 30px;
+    font-style: normal;
+    text-decoration: none;
+    background-color: transparent;
+    border-color: transparent;
+    border-style: none;
+    border-width: 0px;
+    border-radius: 0 0 0 0px;
+    letter-spacing: -.01em;
+    font-family: Montserrat;
+    font-weight: 700;
+}
