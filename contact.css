@@ -125,7 +125,7 @@ body,button,input,textarea {
   color: #f9f9f9;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-family: "proxima-nova", sans-serif;
+  font-family: "montserrat", sans-serif;
 }
 
 body {
@@ -505,7 +505,7 @@ h4,h5,h6 {
 
 [class^="form__field--"] textarea {
   resize: none;
-  min-height: 6.4rem;
+  min-height: 10.4rem;
 }
 
 .form__field--small {

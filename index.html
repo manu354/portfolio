@@ -439,7 +439,7 @@ class="fa-icon-dribbble"></i> </a>
                      data-whitespace="nowrap"
 
                      data-type="button"
-                     data-actions='[{"event":"click","action":"simplelink","target":"_self", "url":"#projects"}]'
+                     data-actions='[{"event":"click","action":"simplelink","target":"_self", "url":"#contact"}]'
 
                      data-responsive_offset="on"
                      data-responsive="off"
@@ -660,7 +660,7 @@ class="fa-icon-dribbble"></i> </a>
                                  data-width="['400','400','400','none']"
                                  data-height="none"
                                  data-whitespace="normal"
-
+                                 data-fontsize="['25','25','25','25']"
                                  data-type="text"
                                  data-responsive_offset="off"
                                  data-responsive="off"
@@ -685,7 +685,7 @@ class="fa-icon-dribbble"></i> </a>
                                  data-width="['400','400','400','none']"
                                  data-height="none"
                                  data-whitespace="normal"
-
+                                 data-fontsize="['25','25','25','25']"
                                  data-type="text"
                                  data-responsive_offset="off"
                                  data-responsive="off"
@@ -1962,7 +1962,7 @@ class="fa-icon-dribbble"></i> </a>
                     <form class="form tp-caption smallflat"  id="form"
                           data-x="['center','left','left','left']" data-hoffset="['0','5','5','5']"
                           data-y="['top','top','top','top']" data-voffset="['250','5','5','5']"
-                          data-fontsize="['40','40','40','30']"
+                          data-fontsize="['30','30','25','25']"
                           data-lineheight="['40','40','40','30']"
                           data-width="800px"
                           data-height="none"
@@ -1996,7 +1996,7 @@ class="fa-icon-dribbble"></i> </a>
                         <!--TEXT AREA-->
                         <div required class=form__field--big data-form-field=message><label class=form__label for=message
                                                                                    data-form-error="How can I help?">How can we
-                            help?</label> <textarea name=message id=message placeholder="How can we help?"></textarea>
+                            help?</label> <textarea name=message id=message placeholder="How can I help?"></textarea>
                         </div>
 
                         <div class="smallflat" class="form tp-caption smallflat"  id="forminfo"
@@ -2243,133 +2243,7 @@ class="fa-icon-dribbble"></i> </a>
                 }
             });
 
-            revapi1154 = tpj("#info").show().revolution({
-                sliderType: "hero",
-                jsFileLocation: "//server.local/revslider/wp-content/plugins/revslider/public/assets/js/",
-                sliderLayout: "fullwidth",
-                dottedOverlay: "none",
-                delay: 9000,
-                navigation: {},
-                viewPort: {
-                    enable: true,
-                    outof: "wait",
-                    visible_area: "65%",
-                    presize: false
-                },
-                responsiveLevels: [1240, 1024, 778, 480],
-                visibilityLevels: [1240, 1024, 778, 480],
-                gridwidth: [1240, 1024, 778, 480],
-                gridheight: [650, 500, 300, 300],
-                lazyType: "none",
-                parallax: {
-                    type: "scroll",
-                    origo: "slidercenter",
-                    speed: 300,
-                    levels: [15, 16, 17, 18, 19, 20, 25, 30, 35, 40, 45, 50, 27, 28, 29, 55],
-                    type: "scroll",
-                },
-                shadow: 0,
-                spinner: "off",
-                autoHeight: "off",
-                disableProgressBar: "on",
-                hideThumbsOnMobile: "off",
-                hideSliderAtLimit: 0,
-                hideCaptionAtLimit: 0,
-                hideAllCaptionAtLilmit: 0,
-                debugMode: false,
-                fallbacks: {
-                    simplifyAll: "off",
-                    disableFocusListener: false,
-                }
-            });
 
-
-            revapi1156 = tpj("#products").show().revolution({
-                sliderType: "hero",
-                jsFileLocation: "//server.local/revslider/wp-content/plugins/revslider/public/assets/js/",
-                sliderLayout: "fullwidth",
-                dottedOverlay: "none",
-                delay: 9000,
-                navigation: {
-                    onHoverStop: "off",
-                },
-                viewPort: {
-                    enable: true,
-                    outof: "wait",
-                    visible_area: "65%",
-                    presize: false
-                },
-                responsiveLevels: [1240, 1024, 778, 480],
-                visibilityLevels: [1240, 1024, 778, 480],
-                gridwidth: [1240, 1024, 778, 480],
-                gridheight: [1100, 1100, 1100, 1100],
-                lazyType: "single",
-                parallax: {
-                    type: "scroll",
-                    origo: "slidercenter",
-                    speed: 400,
-                    levels: [5, 10, 15, 20, 25, 30, 35, 40, 45, 46, 47, 48, 49, 50, 100, 55],
-                    type: "scroll",
-                },
-                shadow: 0,
-                spinner: "off",
-                stopLoop: "on",
-                stopAfterLoops: 0,
-                stopAtSlide: 1,
-                shuffle: "off",
-                autoHeight: "off",
-                disableProgressBar: "on",
-                hideThumbsOnMobile: "off",
-                hideSliderAtLimit: 0,
-                hideCaptionAtLimit: 0,
-                hideAllCaptionAtLilmit: 0,
-                debugMode: false,
-                fallbacks: {
-                    simplifyAll: "off",
-                    nextSlideOnWindowFocus: "off",
-                    disableFocusListener: false,
-                }
-            });
-
-            revapi1158 = tpj("#about").show().revolution({
-                sliderType: "hero",
-                jsFileLocation: "//server.local/revslider/wp-content/plugins/revslider/public/assets/js/",
-                sliderLayout: "fullwidth",
-                dottedOverlay: "none",
-                delay: 9000,
-                navigation: {},
-                viewPort: {
-                    enable: true,
-                    outof: "wait",
-                    visible_area: "70%",
-                    presize: false
-                },
-                responsiveLevels: [1240, 1024, 778, 480],
-                visibilityLevels: [1240, 1024, 778, 480],
-                gridwidth: [1240, 1024, 778, 480],
-                gridheight: [900, 900, 900, 900],
-                lazyType: "none",
-                parallax: {
-                    type: "scroll",
-                    origo: "slidercenter",
-                    speed: 400,
-                    levels: [5, 10, 15, 20, 25, 30, 35, 40, 45, 46, 47, 48, -10, -15, -20, 55],
-                    type: "scroll",
-                },
-                shadow: 0,
-                spinner: "off",
-                autoHeight: "off",
-                disableProgressBar: "on",
-                hideThumbsOnMobile: "off",
-                hideSliderAtLimit: 0,
-                hideCaptionAtLimit: 0,
-                hideAllCaptionAtLilmit: 0,
-                debugMode: false,
-                fallbacks: {
-                    simplifyAll: "off",
-                    disableFocusListener: false,
-                }
-            });
             if(tpj("#rev_slider_1050_1").revolution == undefined){
                 revslider_showDoubleJqueryError("#rev_slider_1050_1");
             }else{
