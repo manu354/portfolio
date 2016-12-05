@@ -52,7 +52,7 @@
     <script type="text/javascript" src="revolution/js/extensions/revolution.extension.parallax.min.js"></script>
     <script type="text/javascript" src="revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
     <script type="text/javascript" src="revolution/js/extensions/revolution.extension.video.min.js"></script>
-
+    <script src="js/modernizr.js"></script>
 
     <!-- REVOLUTION LAYERS STYLES -->
     <!-- THE STYLE FOR LAYERS AND ELEMENTS IN SLIDERS -->
@@ -63,12 +63,17 @@
 <body>
 <!-- HEADER -->
 
-<div id="menu_wrapper" style="position:absolute; z-index: 1;" class="rev_slider_wrapper " data-alias="r_menu1" data-source="gallery"
+<div id="menu_wrapper" style="position:absolute; z-index: 1;" class="rev_slider_wrapper " data-alias="r_menu1"
+     data-source="gallery"
      style="margin:0px auto;background-color:transparent;padding:0px;margin-top:0px;margin-bottom:0px;">
     <!-- START REVOLUTION SLIDER 5.3.0.2 fullwidth mode -->
+
+
     <div id="menu" class="rev_slider" style="display:none;" data-version="5.3.0.2">
-        <ul >    <!-- SLIDE  -->
-            <li  data-index="rs-3202" data-transition="fade" data-slotamount="default" data-hideafterloop="0"
+
+        <ul>    <!-- SLIDE  -->
+
+            <li data-index="rs-3202" data-transition="fade" data-slotamount="default" data-hideafterloop="0"
                 data-hideslideonmobile="off" data-easein="Power2.easeInOut" data-easeout="Power2.easeInOut"
                 data-masterspeed="300" data-rotate="0" data-saveperformance="off" data-title="Menu" data-param1=""
                 data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8=""
@@ -81,10 +86,10 @@
                 <!-- LAYER NR. 1 -->
                 <div class="tp-caption tp-shape tp-shapewrapper   tp-colorchange"
                      id="slide-3202-layer-1"
-                     data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
+                     data-x="['left','center','center','center']" data-hoffset="['0','0','0','0']"
                      data-y="['top','top','top','top']" data-voffset="['0','0','0','0']"
-                     data-width="none"
-                     data-height="['90','90','60','60']"
+                     data-width="['480','480','60','60']"
+                     data-height="['240','240','60','60']"
                      data-whitespace="nowrap"
 
                      data-type="shape"
@@ -98,34 +103,33 @@
                      data-paddingbottom="[0,0,0,0]"
                      data-paddingleft="[0,0,0,0]"
 
-                     style="z-index: 5;background-color:rgba(0, 0, 0, 0.50);border-color:rgba(0, 0, 0, 0.50);border-width:0px;"></div>
+                     style="z-index: 5;background-color:rgba(0, 0, 0, 0.50);border-color:rgba(0, 0, 0, 0.50);border-width:0px;">
+                    <svg viewBox="0 0 400 200"  preserveAspectRatio="xMidYMid meet"
+                            id="svg" >
+                        <path fill="#FFFFFF" stroke="#fff" d="M163.262,74.672V61.121h4.345V36.399h-4.345V22.952h22.032l2.38,6.413c3.517-4.861,8.274-8.275,14.791-8.275
+	c16.033,0,18.723,11.896,18.723,22.757v17.274h4.862v13.551h-26.067V46.433c0-3.517,0.311-9.62-5.792-9.62
+	c-5.275,0-6.517,5.172-6.517,9.62v14.688h7.447v13.551H163.262z"/>
+                        <g>
+                            <path fill="#FFFFFF" stroke="#fff" d="M88.961,74.672h23.274c-4.401-3.328-7.401-8.379-7.401-15.309c0-5.55,1.952-10.436,5.323-14.189
+		c-0.179-12.16-3.135-23.566-19.334-23.566c-7.137,0-11.999,3.827-15.206,7.448c-1.655-2.482-4.965-7.448-15.412-7.448
+		c-6.517,0-11.275,5.586-12.93,7.551L45,23.055H25.45v13.654h4.345v24.412H25.45v13.551h30.722V61.121h-6.207V42.709
+		c0-4.241,1.345-6.206,4.655-6.206c4.138,0,4.344,3.413,4.344,11.792v26.377h26.791V60.811h-6.207V44.053
+		c0-4.448,1.035-7.551,5.482-7.551c4.862,0,3.931,7.861,3.931,12.826V74.672z"/>
+                        </g>
+                        <path fill="#FFFFFF" stroke="#fff" d="M160.794,74.672h-16.136l-2.482-4.655c-3.827,5.275-10.241,6.62-13.964,6.62c-9.827,0-20.377-5.275-20.377-17.274
+	c0-11.688,9.827-19.033,21.515-19.033c6.103,0,9.723,3,10.241,3.62v-3.62c0-4.655-4.241-5.792-9.827-5.792
+	c-6.103,0-11.482,2.586-15.413,4.758l-4.345-11.999c4.138-2.483,13.034-7.344,22.55-7.344c12.413,0,28.238,4.655,28.238,21.308
+	v20.171 M139.59,56.522c-0.381-0.634-2.156-3.676-7.48-3.676c-5.07,0-7.352,2.789-7.352,6.719c0,3.549,2.916,5.958,6.719,5.958
+	c3.804,0,6.973-2.282,8.113-4.184V56.522z"/>
+                        <path fill="#FFFFFF" stroke="#fff" d="M249.826,22.952v24.929c0,8.896,1.345,13.034,5.586,13.034c3.62,0,6.517-3.207,6.517-7.861V36.606h-6.827V22.952h26.791
+	v37.962h5.068v13.757h-19.55l-2.793-6.517c-2.276,2.586-5.896,7.965-14.688,7.965c-15.619,0-20.791-8.068-20.791-25.239V36.606
+	h-4.345V22.952H249.826z"/>
+                        <path d="M308, 65.234 m-15, 0 a 15, 15 0 1,0 30,0 a 15, 15 0 1,0 -30,0 " fill="#ED462E"
+                              stroke="#fff" style="stroke-dashoffset: 0px; stroke-dasharray: 94.2612, 94.2612;"></path>
+                    </svg>
+                </div>
 
                 <!-- LAYER NR. 2 -->
-                <a style="position:relative; z-index:11;" class="tp-caption    tp-rs-menulink"
-                   href="#welcome_forcefullwidth" target="_self" id="slide-3202-layer-12"
-                   data-x="['left','left','left','left']" data-hoffset="['20','20','10','10']"
-                   data-y="['center','top','top','top']" data-voffset="['0','20','10','9']"
-                   data-width="none"
-                   data-height="none"
-                   data-whitespace="nowrap"
-
-                   data-type="image"
-                   data-actions=''
-                   data-basealign="slide"
-                   data-responsive_offset="off"
-                   data-responsive="off"
-                   data-frames='[{"from":"y:20px;opacity:0;","speed":1000,"to":"o:1;","delay":5700,"ease":"Power4.easeOut"},{"delay":"wait","speed":300,"to":"opacity:0;","ease":"nothing"}]'
-                   data-textAlign="['left','left','left','left']"
-                   data-paddingtop="[0,0,0,0]"
-                   data-paddingright="[0,0,0,0]"
-                   data-paddingbottom="[0,0,0,0]"
-                   data-paddingleft="[0,0,0,0]"
-
-                   style="z-index: 6;border-width:0px;cursor:pointer;"><img src="assets/images/logo.svg" alt=""
-                                                                            data-ww="['300px','200px','40','40px']"
-                                                                            data-hh="['300px','200px','40px','40px']"
-                                                                            width="2140" height="2140" data-no-retina>
-                </a>
                 <!-- LAYER NR. 3 -->
                 <a class="tp-caption    tp-rs-menulink"
                    href="#welcome_forcefullwidth" target="_self" id="slide-3202-layer-1223"
@@ -641,7 +645,7 @@
                                  data-paddingleft="[0,0,0,0]"
 
                                  style="z-index: 13; min-width: 400px; max-width: 400px; white-space: normal;">Lorem
-                                ipsum dolor sit amet, consectetur adipiscing elit. Sed vel felis vulputate, finibus nunc
+                                ipsum duulor sit amet, consectetur adipiscing elit. Sed vel felis vulputate, finibus nunc
                                 quis, tempus ante. Maecenas auctor mauris sit amet mi tempor vestibulum.
                             </div>
                             <!-- LAYER NR. 12 -->
@@ -1317,5 +1321,21 @@
 
 <script type="text/javascript" src="main.js"></script>
 
+<script src="js/drawfillsvg.min.js"></script>
+<script>
+    (function () {
+        var myAnimation = new DrawFillSVG({
+            elementId: "svg"
+        });
+//        document.getElementById("animate").addEventListener( "click", function() {
+        setTimeout(function () {
+            myAnimation.replay();
+            document.getElementById("svg").style.visibility = "visible";
+        }, 5700);
+//        });
+    })();
+
+
+</script>
 </body>
 </html>

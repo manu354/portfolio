@@ -191,3 +191,8 @@ a {
     font-family: Montserrat;
     font-weight: 700;
 }
+
+
+/*SVG*/
+
+svg {width: 100%; height: auto; z-index:1; visibility: hidden;}

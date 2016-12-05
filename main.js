@@ -5,6 +5,18 @@ var tpj = jQuery;
 
 var revapi1162;
 tpj(document).ready(function () {
+
+    // setTimeout(
+    //     function() {
+    //         var myAnimation = new DrawFillSVG({
+    //             elementId: "svg"
+    //         });
+    //         document.getElementById("animate").addEventListener( "click", function() {
+    //             myAnimation.replay();
+    //         });
+    //     }, 6000
+    // );
+
     if (tpj("#menu").revolution == undefined) {
         revslider_showDoubleJqueryError("#menu");
     } else {
@@ -15,8 +27,8 @@ tpj(document).ready(function () {
             dottedOverlay: "none",
             delay: 9000,
             navigation: {},
-            responsiveLevels: [1240, 1024, 778, 480],
-            visibilityLevels: [1240, 1024, 778, 480],
+            responsiveLevels: [120, 1024, 778, 480],
+            visibilityLevels: [120, 1024, 778, 480],
             gridwidth: [824, 1024, 778, 480],
             gridheight: [120, 110, 110, 110],
             lazyType: "none",
