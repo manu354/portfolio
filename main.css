@@ -29,6 +29,7 @@
     src: url(revolution/fonts/adelle/adelle-extrabold-webfont.eot);
     src: url(revolution/fonts/adelle/adelle-extrabold-webfontd41d.eot?#iefix) format("embedded-opentype"), url(revolution/fonts/adelle/adelle-extrabold-webfont.woff2) format("woff2"), url(revolution/fonts/adelle/adelle-extrabold-webfont.woff) format("woff"), url(revolution/fonts/adelle/adelle-extrabold-webfont.ttf) format("truetype")
 }
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
 
 .soundcloudwrapper iframe {
     width: 100% !important
@@ -189,10 +190,21 @@ a {
     border-radius: 0 0 0 0px;
     letter-spacing: -.01em;
     font-family: Montserrat;
-    font-weight: 700;
+    font-weight: 400;
 }
 
 
 /*SVG*/
 
-svg {width: 100%; height: auto; z-index:1; visibility: hidden;}
+#svg {width: 100%; height: auto; z-index:1; visibility: hidden;}
+
+
+/*HEADER*/
+
+#menu_wrapper {
+    position:absolute; z-index: 1;
+}
+
+.bold {
+    font-weight: 700;
+}

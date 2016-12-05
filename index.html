@@ -18,13 +18,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- LOAD JQUERY LIBRARY -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.js"></script>
 
     <!-- LOADING FONTS AND ICONS -->
-    <link href="https://fonts.googleapis.com/css?family=Montserrat%3A700" rel="stylesheet" property="stylesheet"
-          type="text/css" media="all"/>
-
-
     <link rel="stylesheet" type="text/css" href="revolution/fonts/pe-icon-7-stroke/css/pe-icon-7-stroke.css">
     <link rel="stylesheet" type="text/css" href="revolution/fonts/font-awesome/css/font-awesome.css">
 
@@ -53,6 +50,7 @@
     <script type="text/javascript" src="revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
     <script type="text/javascript" src="revolution/js/extensions/revolution.extension.video.min.js"></script>
     <script src="js/modernizr.js"></script>
+    <!--<script src="js/classie.js"></script>-->
 
     <!-- REVOLUTION LAYERS STYLES -->
     <!-- THE STYLE FOR LAYERS AND ELEMENTS IN SLIDERS -->
@@ -63,7 +61,7 @@
 <body>
 <!-- HEADER -->
 
-<div id="menu_wrapper" style="position:absolute; z-index: 1;" class="rev_slider_wrapper " data-alias="r_menu1"
+<div id="menu_wrapper" class="rev_slider_wrapper " data-alias="r_menu1"
      data-source="gallery"
      style="margin:0px auto;background-color:transparent;padding:0px;margin-top:0px;margin-bottom:0px;">
     <!-- START REVOLUTION SLIDER 5.3.0.2 fullwidth mode -->
@@ -86,10 +84,10 @@
                 <!-- LAYER NR. 1 -->
                 <div class="tp-caption tp-shape tp-shapewrapper   tp-colorchange"
                      id="slide-3202-layer-1"
-                     data-x="['left','center','center','center']" data-hoffset="['0','0','0','0']"
-                     data-y="['top','top','top','top']" data-voffset="['0','0','0','0']"
-                     data-width="['480','480','60','60']"
-                     data-height="['240','240','60','60']"
+                     data-x="['left','left','left','left']"  data-hoffset="['100','180','20','-392']"
+                     data-y="['center','top','top','top']" data-voffset="['0','0','0','0']"
+                     data-width="['300','480','60','60']"
+                     data-height="['62.1','240','60','60']"
                      data-whitespace="nowrap"
 
                      data-type="shape"
@@ -104,28 +102,28 @@
                      data-paddingleft="[0,0,0,0]"
 
                      style="z-index: 5;background-color:rgba(0, 0, 0, 0.50);border-color:rgba(0, 0, 0, 0.50);border-width:0px;">
-                    <svg viewBox="0 0 400 200"  preserveAspectRatio="xMidYMid meet"
-                            id="svg" >
-                        <path fill="#FFFFFF" stroke="#fff" d="M163.262,74.672V61.121h4.345V36.399h-4.345V22.952h22.032l2.38,6.413c3.517-4.861,8.274-8.275,14.791-8.275
-	c16.033,0,18.723,11.896,18.723,22.757v17.274h4.862v13.551h-26.067V46.433c0-3.517,0.311-9.62-5.792-9.62
-	c-5.275,0-6.517,5.172-6.517,9.62v14.688h7.447v13.551H163.262z"/>
+                    <svg x="0px" y="0px"
+                         viewBox="-81 315.3 299 61.9"
+                            id="svg" style="enable-background:new -81 315.3 299 61.9;" xml:space="preserve" >
+                        <style type="text/css">
+                            .st0{fill:#FFFFFF;stroke:#FFFFFF;}
+                            .st1{fill:#ED462E;stroke:#FFFFFF;stroke-dasharray:94.2612,94.2612;}
+                        </style>
+                        <path class="st0" d="M58.3,371.7v-13.6h4.3v-24.7h-4.3V320h22l2.4,6.4c3.5-4.9,8.3-8.3,14.8-8.3c16,0,18.7,11.9,18.7,22.8v17.3h4.9
+	v13.6H95v-28.2c0-3.5,0.3-9.6-5.8-9.6c-5.3,0-6.5,5.2-6.5,9.6v14.7h7.4v13.6H58.3z"/>
                         <g>
-                            <path fill="#FFFFFF" stroke="#fff" d="M88.961,74.672h23.274c-4.401-3.328-7.401-8.379-7.401-15.309c0-5.55,1.952-10.436,5.323-14.189
-		c-0.179-12.16-3.135-23.566-19.334-23.566c-7.137,0-11.999,3.827-15.206,7.448c-1.655-2.482-4.965-7.448-15.412-7.448
-		c-6.517,0-11.275,5.586-12.93,7.551L45,23.055H25.45v13.654h4.345v24.412H25.45v13.551h30.722V61.121h-6.207V42.709
-		c0-4.241,1.345-6.206,4.655-6.206c4.138,0,4.344,3.413,4.344,11.792v26.377h26.791V60.811h-6.207V44.053
-		c0-4.448,1.035-7.551,5.482-7.551c4.862,0,3.931,7.861,3.931,12.826V74.672z"/>
+                            <path class="st0" d="M-16,371.7H7.2c-4.4-3.3-7.4-8.4-7.4-15.3c0-5.5,2-10.4,5.3-14.2C5,330,2,318.6-14.2,318.6
+		c-7.1,0-12,3.8-15.2,7.4c-1.7-2.5-5-7.4-15.4-7.4c-6.5,0-11.3,5.6-12.9,7.6l-2.3-6.1h-19.6v13.7h4.3v24.4h-4.3v13.6h30.7v-13.6H-55
+		v-18.4c0-4.2,1.3-6.2,4.7-6.2c4.1,0,4.3,3.4,4.3,11.8v26.4h26.8v-13.9h-6.2v-16.8c0-4.4,1-7.6,5.5-7.6c4.9,0,3.9,7.9,3.9,12.8
+		V371.7z"/>
                         </g>
-                        <path fill="#FFFFFF" stroke="#fff" d="M160.794,74.672h-16.136l-2.482-4.655c-3.827,5.275-10.241,6.62-13.964,6.62c-9.827,0-20.377-5.275-20.377-17.274
-	c0-11.688,9.827-19.033,21.515-19.033c6.103,0,9.723,3,10.241,3.62v-3.62c0-4.655-4.241-5.792-9.827-5.792
-	c-6.103,0-11.482,2.586-15.413,4.758l-4.345-11.999c4.138-2.483,13.034-7.344,22.55-7.344c12.413,0,28.238,4.655,28.238,21.308
-	v20.171 M139.59,56.522c-0.381-0.634-2.156-3.676-7.48-3.676c-5.07,0-7.352,2.789-7.352,6.719c0,3.549,2.916,5.958,6.719,5.958
-	c3.804,0,6.973-2.282,8.113-4.184V56.522z"/>
-                        <path fill="#FFFFFF" stroke="#fff" d="M249.826,22.952v24.929c0,8.896,1.345,13.034,5.586,13.034c3.62,0,6.517-3.207,6.517-7.861V36.606h-6.827V22.952h26.791
-	v37.962h5.068v13.757h-19.55l-2.793-6.517c-2.276,2.586-5.896,7.965-14.688,7.965c-15.619,0-20.791-8.068-20.791-25.239V36.606
-	h-4.345V22.952H249.826z"/>
-                        <path d="M308, 65.234 m-15, 0 a 15, 15 0 1,0 30,0 a 15, 15 0 1,0 -30,0 " fill="#ED462E"
-                              stroke="#fff" style="stroke-dashoffset: 0px; stroke-dasharray: 94.2612, 94.2612;"></path>
+                        <path class="st0" d="M55.8,371.7H39.7l-2.5-4.7c-3.8,5.3-10.2,6.6-14,6.6c-9.8,0-20.4-5.3-20.4-17.3c0-11.7,9.8-19,21.5-19
+	c6.1,0,9.7,3,10.2,3.6v-3.6c0-4.7-4.2-5.8-9.8-5.8c-6.1,0-11.5,2.6-15.4,4.8l-4.3-12c4.1-2.5,13-7.3,22.5-7.3
+	c12.4,0,28.2,4.7,28.2,21.3v20.2 M34.6,353.5c-0.4-0.6-2.2-3.7-7.5-3.7c-5.1,0-7.4,2.8-7.4,6.7c0,3.5,2.9,6,6.7,6
+	c3.8,0,7-2.3,8.1-4.2L34.6,353.5L34.6,353.5z"/>
+                        <path class="st0" d="M144.8,320v24.9c0,8.9,1.3,13,5.6,13c3.6,0,6.5-3.2,6.5-7.9v-16.4h-6.8V320h26.8v38h5.1v13.8h-19.5l-2.8-6.5
+	c-2.3,2.6-5.9,8-14.7,8c-15.6,0-20.8-8.1-20.8-25.2v-14.3h-4.3V320H144.8z"/>
+                        <path class="st1" d="M188,362.2c0,8.3,6.7,15,15,15s15-6.7,15-15s-6.7-15-15-15S188,353.9,188,362.2"/>
                     </svg>
                 </div>
 
@@ -133,9 +131,9 @@
                 <!-- LAYER NR. 3 -->
                 <a class="tp-caption    tp-rs-menulink"
                    href="#welcome_forcefullwidth" target="_self" id="slide-3202-layer-1223"
-                   data-x="['right','right','right','right']" data-hoffset="['545','505','272','-237']"
+                   data-x="['right','right','right','right']" data-hoffset="['580','505','272','-237']"
                    data-y="['center','top','top','top']" data-voffset="['0','43','20','53']"
-                   data-fontsize="['20','20','16','13']"
+                   data-fontsize="['25','20','16','13']"
                    data-lineheight="['20','20','16','13']"
                    data-width="none"
                    data-height="none"
@@ -159,9 +157,9 @@
                 <!-- LAYER NR. 4 -->
                 <a class="tp-caption    tp-rs-menulink"
                    href="#me" target="_self" id="slide-3202-layer-13"
-                   data-x="['right','right','right','right']" data-hoffset="['441','411','200','-245']"
+                   data-x="['right','right','right','right']" data-hoffset="['450','411','200','-245']"
                    data-y="['center','top','top','top']" data-voffset="['0','43','20','53']"
-                   data-fontsize="['20','20','16','13']"
+                   data-fontsize="['25','20','16','13']"
                    data-lineheight="['20','20','16','13']"
                    data-width="none"
                    data-height="none"
@@ -185,9 +183,9 @@
                 <!-- LAYER NR. 5 -->
                 <a class="tp-caption    tp-rs-menulink"
                    href="#projects" target="_self" id="slide-3202-layer-14"
-                   data-x="['right','right','right','right']" data-hoffset="['310','290','106','-299']"
+                   data-x="['right','right','right','right']" data-hoffset="['290','290','106','-299']"
                    data-y="['center','top','top','top']" data-voffset="['0','43','20','31']"
-                   data-fontsize="['20','20','16','13']"
+                   data-fontsize="['25','20','16','13']"
                    data-lineheight="['20','20','16','13']"
                    data-width="none"
                    data-height="none"
@@ -212,9 +210,9 @@
                 <!-- LAYER NR. 6 -->
                 <a class="tp-caption    tp-rs-menulink"
                    href="#contact" target="_self" id="slide-3202-layer-18"
-                   data-x="['right','right','right','right']" data-hoffset="['190','180','20','-392']"
+                   data-x="['right','right','right','right']" data-hoffset="['140','180','20','-392']"
                    data-y="['center','top','top','top']" data-voffset="['0,'43','20','37']"
-                   data-fontsize="['20','20','16','13']"
+                   data-fontsize="['25','20','16','13']"
                    data-lineheight="['20','20','16','13']"
                    data-width="none"
                    data-height="none"
@@ -566,33 +564,33 @@
                             </div>
 
                             <!-- LAYER NR. 7 -->
-                            <div class="tp-caption bigflat"
-                                 id="slide-3168-layer-6"
-                                 data-x="['left','left','left','left']" data-hoffset="['0','0','0','5']"
-                                 data-y="['top','top','top','top']" data-voffset="['0','0','0','5']"
-                                 data-fontsize="['60','40','40','30']"
-                                 data-lineheight="['60','40','40','30']"
-                                 data-width="100%"
-                                 data-height="none"
-                                 data-whitespace="normal"
+                            <!--<div class="tp-caption bigflat"-->
+                                 <!--id="slide-3168-layer-6"-->
+                                 <!--data-x="['left','left','left','left']" data-hoffset="['0','0','0','5']"-->
+                                 <!--data-y="['top','top','top','top']" data-voffset="['0','0','0','5']"-->
+                                 <!--data-fontsize="['60','40','40','30']"-->
+                                 <!--data-lineheight="['60','40','40','30']"-->
+                                 <!--data-width="100%"-->
+                                 <!--data-height="none"-->
+                                 <!--data-whitespace="normal"-->
 
-                                 data-type="text"
-                                 data-responsive_offset="on"
-                                 data-responsive="off"
-                                 data-frames='[{"delay":100,"speed":1000,"frame":"0","from":"y:50px;opacity:0;","to":"o:1;","ease":"Power4.easeOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
-                                 data-margintop="[12,12,12,6]"
-                                 data-marginright="[0,0,0,0]"
-                                 data-marginbottom="[0,0,0,0]"
-                                 data-marginleft="[0,0,0,0]"
-                                 data-textAlign="['inherit','inherit','inherit','inherit']"
-                                 data-paddingtop="[0,0,0,0]"
-                                 data-paddingright="[0,0,0,30]"
-                                 data-paddingbottom="[0,0,0,0]"
-                                 data-paddingleft="[0,0,0,30]"
+                                 <!--data-type="text"-->
+                                 <!--data-responsive_offset="on"-->
+                                 <!--data-responsive="off"-->
+                                 <!--data-frames='[{"delay":100,"speed":1000,"frame":"0","from":"y:50px;opacity:0;","to":"o:1;","ease":"Power4.easeOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'-->
+                                 <!--data-margintop="[12,12,12,6]"-->
+                                 <!--data-marginright="[0,0,0,0]"-->
+                                 <!--data-marginbottom="[0,0,0,0]"-->
+                                 <!--data-marginleft="[0,0,0,0]"-->
+                                 <!--data-textAlign="['inherit','inherit','inherit','inherit']"-->
+                                 <!--data-paddingtop="[0,0,0,0]"-->
+                                 <!--data-paddingright="[0,0,0,30]"-->
+                                 <!--data-paddingbottom="[0,0,0,0]"-->
+                                 <!--data-paddingleft="[0,0,0,30]"-->
 
-                                 style="z-index: 12; min-width: 100%px; max-width: 100%px; white-space: normal;">a web
-                                developer
-                            </div>
+                                 <!--style="z-index: 12; min-width: 100%px; max-width: 100%px; white-space: normal;">a web-->
+                                <!--developer-->
+                            <!--</div>-->
 
                             <!-- LAYER NR. 8 -->
                             <div class="tp-caption smallflat"
@@ -617,8 +615,8 @@
                                  data-paddingbottom="[0,0,0,0]"
                                  data-paddingleft="[0,0,0,0]"
 
-                                 style="z-index: 13; min-width: 400px; max-width: 400px; white-space: normal;">I'm Manu
-                                Masson, an aspiring web and app developer. I'm currently a student at Reddam House.
+                                 style="z-index: 13; min-width: 400px; max-width: 400px; white-space: normal;">Hi, I'm Manu
+                                Masson, an aspiring web and app developer. I have a passion for computer science and design, I love to create exciting things that look <i>cool</i>.
                             </div>
 
 
@@ -649,7 +647,7 @@
                                 quis, tempus ante. Maecenas auctor mauris sit amet mi tempor vestibulum.
                             </div>
                             <!-- LAYER NR. 12 -->
-                            <a class="tp-caption rev-btn smallflat tp-rs-menulink"
+                            <a class="tp-caption bold rev-btn smallflat tp-rs-menulink"
                                href="#pricing" target="_self" id="slide-3168-layer-26"
                                data-x="['left','left','left','center']" data-hoffset="['0','0','0','0']"
                                data-y="['top','top','top','top']" data-voffset="['0','401','338','228']"
@@ -711,197 +709,6 @@
 </div><!-- END REVOLUTION SLIDER -->
 
 
-<!--PROJECT SHOWCASE-->
-<div id="projects_wrapper" class="rev_slider_wrapper fullscreen-container" data-alias="webproduct-light"
-     data-source="gallery" style="background-color:transparent;padding:0px;">
-    <!-- START REVOLUTION SLIDER 5.3.0.2 fullscreen mode -->
-    <div id="projects" class="rev_slider fullscreenbanner" style="display:none;" data-version="5.3.0.2">
-        <ul>    <!-- SLIDE  -->
-            <!-- LAYER NR. 1 -->
-            <li data-index="rs-293922" data-transition="slidevertical" data-slotamount="1" data-hideafterloop="0"
-                data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed="1500"
-                data-thumb="assets/images/desktopbg1-100x50.jpg" data-rotate="0" data-saveperformance="off"
-                data-title="Examples" data-param1="" data-param2="" data-param3="" data-param4="" data-param5=""
-                data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
-                <!-- MAIN IMAGE -->
-                <img src="assets/images/transparent.png" alt="" data-bgposition="center center" data-bgfit="cover"
-                     data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
-                <!-- LAYERS -->
-
-                <!-- LAYER NR. 11 -->
-                <div class="tp-caption   tp-resizeme"
-                     id="slide-2939-layer-1"
-                     data-x="['right','right','center','center']" data-hoffset="['103','161','-264','-116']"
-                     data-y="['middle','middle','middle','bottom']" data-voffset="['-260','-152','252','65']"
-                     data-width="none"
-                     data-height="none"
-                     data-whitespace="nowrap"
-
-                     data-type="image"
-                     data-responsive_offset="on"
-
-                     data-frames='[{"from":"y:bottom;rX:-20deg;rY:-20deg;rZ:0deg;","speed":1500,"to":"o:1;rZ:-30;","delay":2500,"ease":"Power3.easeOut"},{"delay":"wait","speed":2000,"to":"opacity:0;","ease":"Power4.easeIn"},{"frame":"hover","speed":"500","ease":"Power1.easeInOut","to":"o:1;sX:0.9;sY:0.9;skX:0px;rX:0;rY:0;rZ:-30;z:0;","style":"c:rgba(255, 255, 255, 1.00);"}]'
-                     data-textAlign="['left','left','left','left']"
-                     data-paddingtop="[0,0,0,0]"
-                     data-paddingright="[0,0,0,0]"
-                     data-paddingbottom="[0,0,0,0]"
-                     data-paddingleft="[0,0,0,0]"
-
-                     style="z-index: 15;text-transform:left;border-width:0px;"><img
-                        src="assets/images/examplelayer3.jpg" alt="" data-ww="['600px','500px','400px','200px']"
-                        data-hh="['338px','281px','225px','113px']" width="800" height="450" data-no-retina></div>
-
-                <!-- LAYER NR. 12 -->
-                <div class="tp-caption   tp-resizeme"
-                     id="slide-2939-layer-3"
-                     data-x="['left','left','center','center']" data-hoffset="['779','623','-3','16']"
-                     data-y="['top','top','top','bottom']" data-voffset="['276','325','809','-32']"
-                     data-width="none"
-                     data-height="none"
-                     data-whitespace="nowrap"
-
-                     data-type="image"
-                     data-responsive_offset="on"
-
-                     data-frames='[{"from":"y:bottom;rX:-20deg;rY:-20deg;rZ:0deg;","speed":1500,"to":"o:1;rZ:-10;","delay":2750,"ease":"Power3.easeOut"},{"delay":"wait","speed":2000,"to":"opacity:0;","ease":"Power4.easeIn"},{"frame":"hover","speed":"500","ease":"Power1.easeInOut","to":"o:1;sX:0.9;sY:0.9;rX:0;rY:0;rZ:-10;z:0;","style":"c:rgba(255, 255, 255, 1.00);"}]'
-                     data-textAlign="['left','left','left','left']"
-                     data-paddingtop="[0,0,0,0]"
-                     data-paddingright="[0,0,0,0]"
-                     data-paddingbottom="[0,0,0,0]"
-                     data-paddingleft="[0,0,0,0]"
-
-                     style="z-index: 16;text-transform:left;border-width:0px;"><img
-                        src="assets/images/examplelayer2.jpg" alt="" data-ww="['600px','500px','400px','200px']"
-                        data-hh="['338px','281px','225px','113px']" width="800" height="450" data-no-retina></div>
-
-                <!-- LAYER NR. 13 -->
-                <div class="tp-caption   tp-resizeme"
-                     id="slide-2939-layer-5"
-                     data-x="['left','left','left','left']" data-hoffset="['813','638','396','263']"
-                     data-y="['top','top','top','top']" data-voffset="['557','549','551','507']"
-                     data-width="none"
-                     data-height="none"
-                     data-whitespace="nowrap"
-
-                     data-type="image"
-                     data-responsive_offset="on"
-
-                     data-frames='[{"from":"y:bottom;rX:-20deg;rY:-20deg;rZ:0deg;","speed":1500,"to":"o:1;rZ:10;","delay":3000,"ease":"Power3.easeOut"},{"delay":"wait","speed":2000,"to":"opacity:0;","ease":"Power4.easeIn"},{"frame":"hover","speed":"500","ease":"Power1.easeInOut","to":"o:1;sX:0.9;sY:0.9;rX:0;rY:0;rZ:10;z:0;","style":"c:rgba(255, 255, 255, 1.00);"}]'
-                     data-textAlign="['left','left','left','left']"
-                     data-paddingtop="[0,0,0,0]"
-                     data-paddingright="[0,0,0,0]"
-                     data-paddingbottom="[0,0,0,0]"
-                     data-paddingleft="[0,0,0,0]"
-
-                     style="z-index: 17;text-transform:left;border-width:0px;"><img
-                        src="assets/images/examplelayer1.jpg" alt="" data-ww="['600px','500px','400px','200px']"
-                        data-hh="['338px','281px','225px','113px']" width="800" height="450" data-no-retina></div>
-
-                <!-- LAYER NR. 14 -->
-                <div class="tp-caption WebProduct-Title bigflat gtp-resizeme"
-                     id="slide-2939-layer-7"
-                     data-x="['left','left','left','left']" data-hoffset="['30','30','200','80']"
-                     data-y="['top','top','top','top']" data-voffset="['80','80','137','140']"
-                     data-fontsize="['90','90','75','75']"
-                     data-lineheight="['90','90','75','70']"
-                     data-width="none"
-                     data-height="none"
-                     data-whitespace="nowrap"
-
-                     data-type="text"
-                     data-responsive_offset="on"
-
-                     data-frames='[{"from":"x:-50px;opacity:0;","speed":1000,"to":"o:1;","delay":400,"ease":"Power2.easeOut"},{"delay":"wait","speed":1500,"to":"opacity:0;","ease":"Power4.easeIn"}]'
-                     data-textAlign="['left','left','left','left']"
-                     data-paddingtop="[0,0,0,0]"
-                     data-paddingright="[0,0,0,0]"
-                     data-paddingbottom="[0,0,0,0]"
-                     data-paddingleft="[0,0,0,0]"
-
-                     style="z-index: 18; white-space: nowrap;text-transform:left;">My recent <br> projects
-                </div>
-
-                <!-- LAYER NR. 15 -->
-                <div class="tp-caption WebProduct-SubTitle smallflat tp-resizeme"
-                     id="slide-2939-layer-10"
-                     data-x="['left','left','left','left']" data-hoffset="['30','30','200','80']"
-                     data-y="['top','top','top','top']" data-voffset="['284','284','294','287']"
-                     data-fontsize="['15','15','15','13']"
-                     data-width="none"
-                     data-height="none"
-                     data-whitespace="nowrap"
-
-                     data-type="text"
-                     data-responsive_offset="on"
-
-                     data-frames='[{"from":"x:-50px;opacity:0;","speed":1000,"to":"o:1;","delay":1250,"ease":"Power2.easeOut"},{"delay":"wait","speed":1500,"to":"opacity:0;","ease":"Power4.easeIn"}]'
-                     data-textAlign="['left','left','left','left']"
-                     data-paddingtop="[0,0,0,0]"
-                     data-paddingright="[0,0,0,0]"
-                     data-paddingbottom="[0,0,0,0]"
-                     data-paddingleft="[0,0,0,0]"
-
-                     style="z-index: 19; white-space: nowrap;text-transform:left;letter-spacing:2px;">JUST PICK AND
-                    CUSTOMIZE
-                </div>
-
-                <!-- LAYER NR. 16 -->
-                <div class="tp-caption WebProduct-Content  smallflat tp-resizeme"
-                     id="slide-2939-layer-9"
-                     data-x="['left','left','left','left']" data-hoffset="['30','30','200','80']"
-                     data-y="['top','middle','top','top']" data-voffset="['345','127','345','326']"
-                     data-fontsize="['20','16','16','14']"
-                     data-lineheight="['24','24','24','22']"
-                     data-width="['448','356','334','277']"
-                     data-height="['none','none','76','68']"
-                     data-whitespace="normal"
-
-                     data-type="text"
-                     data-responsive_offset="on"
-
-                     data-frames='[{"from":"x:-50px;opacity:0;","speed":1000,"to":"o:1;","delay":1500,"ease":"Power2.easeOut"},{"delay":"wait","speed":1500,"to":"opacity:0;","ease":"Power4.easeIn"}]'
-                     data-textAlign="['left','left','left','left']"
-                     data-paddingtop="[0,0,0,0]"
-                     data-paddingright="[0,0,0,0]"
-                     data-paddingbottom="[0,0,0,0]"
-                     data-paddingleft="[0,0,0,0]"
-
-                     style="z-index: 20; min-width: 448px; max-width: 448px; white-space: normal;text-transform:left;">
-                    We made sure that there are plenty of examples available for you to choose from. Lorem ipsum dolor
-                    sit amet, consectetur adipiscing elit. <br><br>Pellentesque lacinia justo et orci aliquam, ut
-                    placerat velit commodo. Pellentesque laoreet nisl et eros pretium fringilla. Sed non purus et dui
-                    gravida eleifend. Mauris suscipit, eros vitae tincidunt sagittis, est ante commodo dui, nec
-                    hendrerit tortor sem nec eros.
-                </div>
-
-                <!-- LAYER NR. 17 -->
-                <div class="tp-caption rev-btn smallflat"
-                     id="slide-2938-layer-8"
-                     data-x="['left','left','left','left']" data-hoffset="['30','30','200','80']"
-                     data-y="['middle','middle','top','top']" data-voffset="['268','268','456','420']"
-                     data-width="none"
-                     data-height="none"
-                     data-whitespace="nowrap"
-
-                     data-type="button"
-                     data-actions='[{"event":"click","action":"jumptoslide","slide":"rs-2939","delay":""}]'
-                     data-responsive_offset="on"
-                     data-responsive="off"
-                     data-frames='[{"from":"x:-50px;opacity:0;","speed":1000,"to":"o:1;","delay":1750,"ease":"Power2.easeOut"},{"delay":"wait","speed":1500,"to":"opacity:0;","ease":"Power4.easeIn"},{"frame":"hover","speed":"300","ease":"Linear.easeNone","to":"o:1;rX:0;rY:0;rZ:0;z:0;","style":"c:rgba(51, 51, 51, 1.00);bg:rgba(255, 255, 255, 1.00);bw:2px 2px 2px 2px;"}]'
-                     data-textAlign="['left','left','left','left']"
-                     data-paddingtop="[0,0,0,0]"
-                     data-paddingright="[40,40,40,40]"
-                     data-paddingbottom="[0,0,0,0]"
-                     data-paddingleft="[40,40,40,40]"
-
-                     style="z-index: 10; white-space: nowrap; font-size: 13px; line-height: 60px; font-weight: 700; color: rgba(255, 255, 255, 1.00);font-family:Montserrat;background-color:rgba(255, 255, 255, 0);border-color:rgba(255, 255, 255, 0.50);border-style:solid;border-width:2px 2px 2px 2px;border-radius:5px 5px 5px 5px;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;letter-spacing:2px;cursor:pointer;">
-                    HOW DOES IT WORK?
-                </div>
-            </li>
-    </div>
-    <div class="tp-bannertimer tp-bottom" style="visibility: hidden !important;"></div>
-</div>
-</div><!-- END REVOLUTION SLIDER -->
 
 <!--Responsive showcase-->
 <div id="responsive_wrapper" class="rev_slider_wrapper fullscreen-container" data-alias="webproduct-light"

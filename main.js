@@ -6,16 +6,15 @@ var tpj = jQuery;
 var revapi1162;
 tpj(document).ready(function () {
 
-    // setTimeout(
-    //     function() {
-    //         var myAnimation = new DrawFillSVG({
-    //             elementId: "svg"
-    //         });
-    //         document.getElementById("animate").addEventListener( "click", function() {
-    //             myAnimation.replay();
-    //         });
-    //     }, 6000
-    // );
+  // SCROLL CHANGE HEADER
+    window.addEventListener('scroll', function(e){
+        var distanceY = window.pageYOffset || document.documentElement.scrollTop,
+            shrinkOn = 300,
+            header = document.querySelector("smallheader");
+        if (distanceY > shrinkOn) {
+            header.style.visibility = "visible";
+        }
+    });
 
     if (tpj("#menu").revolution == undefined) {
         revslider_showDoubleJqueryError("#menu");
@@ -30,7 +29,7 @@ tpj(document).ready(function () {
             responsiveLevels: [120, 1024, 778, 480],
             visibilityLevels: [120, 1024, 778, 480],
             gridwidth: [824, 1024, 778, 480],
-            gridheight: [120, 110, 110, 110],
+            gridheight: [150, 110, 110, 110],
             lazyType: "none",
             minHeight: "100",
             shadow: 0,
@@ -54,12 +53,6 @@ tpj(document).ready(function () {
             dottedOverlay: "none",
             delay: 9000,
             navigation: {},
-            viewPort: {
-                enable: true,
-                outof: "wait",
-                visible_area: "65%",
-                presize: false
-            },
             responsiveLevels: [1240, 1024, 778, 480],
             visibilityLevels: [1240, 1024, 778, 480],
             gridwidth: [1240, 1024, 778, 480],
@@ -128,47 +121,6 @@ tpj(document).ready(function () {
                 disableFocusListener: false,
             }
         });
-        revapi1050e = tpj("#projects").show().revolution({
-            sliderType: "hero",
-            jsFileLocation: "//server.local/revslider/wp-content/plugins/revslider/public/assets/js/",
-            sliderLayout: "fullscreen",
-            dottedOverlay: "none",
-            delay: 9000,
-            navigation: {},
-            viewPort: {
-                enable: true,
-                outof: "pause",
-                visible_area: "65%",
-                presize: false
-            },
-            responsiveLevels: [1240, 1024, 778, 480],
-            visibilityLevels: [1240, 1024, 778, 480],
-            gridwidth: [1400, 1240, 778, 480],
-            gridheight: [868, 768, 960, 720],
-            lazyType: "none",
-            shadow: 0,
-            spinner: "spinner2",
-            stopLoop: "on",
-            stopAfterLoops: 0,
-            stopAtSlide: 1,
-            shuffle: "off",
-            autoHeight: "off",
-            fullScreenAutoWidth: "off",
-            fullScreenAlignForce: "off",
-            fullScreenOffsetContainer: "",
-            fullScreenOffset: "",
-            disableProgressBar: "on",
-            hideThumbsOnMobile: "off",
-            hideSliderAtLimit: 0,
-            hideCaptionAtLimit: 0,
-            hideAllCaptionAtLilmit: 0,
-            debugMode: false,
-            fallbacks: {
-                simplifyAll: "off",
-                nextSlideOnWindowFocus: "off",
-                disableFocusListener: false,
-            }
-        });
         revapi1050 = tpj("#responsive").show().revolution({
             sliderType: "hero",
             jsFileLocation: "//server.local/revslider/wp-content/plugins/revslider/public/assets/js/",
@@ -178,7 +130,7 @@ tpj(document).ready(function () {
             navigation: {},
             viewPort: {
                 enable: true,
-                outof: "wait",
+                outof: "pause",
                 visible_area: "85%",
                 presize: false
             },
@@ -219,8 +171,8 @@ tpj(document).ready(function () {
             navigation: {},
             viewPort: {
                 enable: true,
-                outof: "wait",
-                visible_area: "60%",
+                outof: "pause",
+                visible_area: "85%",
                 presize: true
             },
             responsiveLevels: [1240, 1024, 778, 480],
